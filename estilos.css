@@ -37,7 +37,7 @@ P{
     height: 50px;
     background-color: aqua;
 }
-a[tittle]{
+a[title]{
     color: red;
 }
 
@@ -61,4 +61,8 @@ p::first-letter{
     width: 100px;
     height: 100px;
     background-color: violet;    
+}
+
+.padre p{
+    color: red;
 }
