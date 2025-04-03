@@ -66,3 +66,77 @@ p::first-letter{
 .padre p{
     color: red;
 }
+p#unico.foo{
+    color: red;
+}
+p#unico,foo.bar{
+    color: green;
+}
+
+p#unico,foo.bar.baz{
+    color: red !important;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: red;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+
+}
+.cajainterior{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+
+}
+.cajainterior p{
+    font-size: 2rem;
+}
+
+body{
+    margin: 0;
+}
+.divvvv{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.modelocajita{
+    width: 250px;
+    height: 250px;
+    background-color: chocolate;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom:  12px dashed green;
+}
+
+.modelocajita2{
+    width: 250px;
+    height: 250px;
+    background-color:blue;
+    padding: 25px;
+    border: 12px solid yellow;
+    margin: 25px;
+}
